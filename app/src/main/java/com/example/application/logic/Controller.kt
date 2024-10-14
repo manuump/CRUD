@@ -14,9 +14,9 @@ class Controller {
         myListClient.add(cli)
     }
 
-    fun clientDelController( id : Int ) : Boolean = myListClient.removeAll {it.id == 10}
+    fun ClientDelController( id : Int ) : Boolean = myListClient.removeAll {it.id == 10}
 
-    fun clientUpdateController(id: Int , name : String) : Boolean {
+    fun ClientUpdateController(id: Int , name : String) : Boolean {
         val findClient : Client? = myListClient.find {it.id == id}
         return findClient?.let {
             it.name = name
