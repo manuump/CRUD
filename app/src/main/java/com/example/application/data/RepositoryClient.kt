@@ -8,9 +8,9 @@ class RepositoryClient {
 
         val listClient  : List<Client> = listOf(
             Client (incrementPrimary(),"Manu"),
-            Client (incrementPrimary(),"Manu"),
-            Client (incrementPrimary(),"Manu"),
-            Client (incrementPrimary(),"Manu")
+            Client (incrementPrimary(),"Manu-dos"),
+            Client (incrementPrimary(),"Manu-tres"),
+            Client (incrementPrimary(),"Manu-cuatro")
         )
         fun incrementPrimary() = primary ++
     }
